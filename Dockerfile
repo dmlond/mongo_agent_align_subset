@@ -1,7 +1,3 @@
-# build this into a mongo_agent:candidate
-# and then build dmlond/mongo_agent_align_subset from mongo_agent_base
-# docker build -t mongo_agent:candidate
-# docker build -t dmlond/mongo_agent_align_subset ../../mongo_agent_base
 FROM dmlond/bwa_aligner
 MAINTAINER Darin London <darin.london@duke.edu>
 
