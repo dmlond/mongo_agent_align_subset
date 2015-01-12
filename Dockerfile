@@ -13,4 +13,4 @@ RUN ["chmod", "777", "/usr/local/bin/align_subset_agent.rb"]
 USER bwa_user
 WORKDIR /home/bwa_user
 ENTRYPOINT []
-CMD ["/user/local/bin/align_subset_agent.rb"]
+CMD ["/usr/local/bin/align_subset_agent.rb"]
